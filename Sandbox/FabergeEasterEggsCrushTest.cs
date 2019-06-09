@@ -1,6 +1,8 @@
-﻿using System.Linq;
+﻿using System.Diagnostics;
+using System.Linq;
 using System.Numerics;
 using Xunit;
+using Xunit.Abstractions;
 
 namespace Sandbox
 {
@@ -9,40 +11,27 @@ namespace Sandbox
     /// </summary>
     public class FabergeEasterEggsCrushTest
     {
-        public static BigInteger Height(int n, int m)
+        private readonly ITestOutputHelper _output;
+        public int Metric = 0;
+
+        public FabergeEasterEggsCrushTest(ITestOutputHelper output)
+        {
+            _output = output;
+        }
+
+        public BigInteger Height(int n, int m)
         {
             if (n == 0 || m == 0)
+                return 0;
+            if (m < n)
+                n = m;
+            BigInteger sum = 0, bin = 1;
+            for (int i = 1; i <= n; ++i)
             {
-                return BigInteger.Zero;
+                bin = bin * (m - i + 1) / i;
+                sum += bin;
             }
-
-            var array1 = new BigInteger[m];
-            var array2 = new BigInteger[m];
-            var array3 = new BigInteger[m];
-
-            var k = 0;
-            var q = BigInteger.Zero;
-            while (k++ < n - 1)
-            {
-                array2[k] = q = (q * 2 + 1);
-                for (var i = k; i < m - n + k; i++)
-                {
-                    array2[i + 1] = array1[i] + array2[i] + 1;
-                }
-
-                var t = array1;
-                array1 = array2;
-                array2 = array3;
-                array3 = t;
-
-            }
-
-            for (int i = 0; i < n - 1; i++)
-            {
-                array1[i + 1] = array1[i] * 2 + 1;
-            }
-
-            return m + array1.Aggregate((a, b) => a + b);
+            return sum;
         }
 
         [Fact]
