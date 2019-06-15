@@ -1,6 +1,8 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Text;
 using Sandbox;
 using Sandbox.HelperUtils;
 
@@ -8,6 +10,11 @@ namespace Extension.TagSorter
 {
     class Program
     {
+        private const string Start = @"# Sandbox
+The project aims to store the solutions of Codewars tasks. The tasks are tagged with categories so I provide the same structure to my solutions below.
+
+";
+
         static string TaskNameFormatter(string task)
         {
             return $"- [{task}](Sandbox/{task}.cs)";
@@ -18,7 +25,7 @@ namespace Extension.TagSorter
             return $"## {category}";
         }
 
-        static void Main(string[] args)
+        static string TasksByCategories()
         {
             var taskInfos = typeof(BouncingBall)
                 .Assembly
@@ -45,18 +52,18 @@ namespace Extension.TagSorter
                         category = CategoryFormatter(category),
                         tasks = string.Join("\n", tasks)
                     };
-                });
+                })
+                .Where(data => data.tasks.Length != 0)
+                .Select(data => $"{data.category}\n\n{data.tasks}\n");
 
-            foreach (var data in reportData)
-            {
-                if (data.tasks.Length == 0)
-                {
-                    continue;
-                }
+            return string.Join("\n", reportData);
+        }
 
-                const string bars = "";
-                Console.WriteLine($"{data.category}\n\n{data.tasks}\n{bars}");
-            }
+        static void Main(string[] args)
+        {
+            const string readmeFile = @"G:\Sandbox\README.md";
+            var tasksByCategories = TasksByCategories();
+            File.WriteAllText(readmeFile, Start + tasksByCategories);
         }
     }
 }
