@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using Sandbox.HelperUtils;
 
 namespace Sandbox
 {
     /// <summary>
     /// https://www.codewars.com/kata/5672682212c8ecf83e000050
     /// </summary>
-    class TwiceLinear
+    [Tag(Category.Algorithms | Category.Numbers | Category.Mathematics)]
+    public class TwiceLinear
     {
         public static int DblLinear4(int n)
         {

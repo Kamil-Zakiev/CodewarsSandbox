@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using Sandbox.HelperUtils;
 using Xunit;
 
 namespace Sandbox
@@ -6,6 +7,7 @@ namespace Sandbox
     /// <summary>
     /// https://www.codewars.com/kata/human-readable-duration-format/train/csharp
     /// </summary>
+    [Tag(Category.Algorithms | Category.Formats | Category.Strings | Category.DatesTime | Category.Formatting)]
     public class HumanTimeFormat
     {
         public static string formatDuration(int seconds)

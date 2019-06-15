@@ -1,11 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Sandbox.HelperUtils;
 
 namespace Sandbox
 {
     /// <summary>
     /// https://www.codewars.com/kata/55983863da40caa2c900004e
     /// </summary>
+    [Tag(Category.Algorithms | Category.Numbers | Category.Strings | Category.Integers)]
     public class NextBiggerNumberWithSameDigits
     {
         public static long NextBiggerNumber(long n)

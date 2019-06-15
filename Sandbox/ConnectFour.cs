@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Sandbox.HelperUtils;
 using Xunit;
 
 namespace Sandbox
@@ -8,6 +9,7 @@ namespace Sandbox
     /// <summary>
     /// https://www.codewars.com/kata/connect-four-1/train/csharp
     /// </summary>
+    [Tag(Category.Fundamentals)]
     public class ConnectFour
     {
         private enum Disk

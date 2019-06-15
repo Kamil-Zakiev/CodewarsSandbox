@@ -1,9 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Sandbox.HelperUtils;
 using Xunit;
 
 namespace Sandbox
 {
+    /// <summary>
+    /// https://www.codewars.com/kata/55e7280b40e1c4a06d0000aa
+    /// </summary>
+    [Tag(Category.Fundamentals)]
     public class SumOfK
     {
         public static int? chooseBestSum(int t, int k, List<int> ls)

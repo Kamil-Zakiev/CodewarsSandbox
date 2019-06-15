@@ -1,11 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Sandbox.HelperUtils;
 
 namespace Sandbox
 {
     /// <summary>
-    /// https://www.codewars.com/kata/sort-binary-tree-by-levels/train/csharp
+    /// https://www.codewars.com/kata/52bef5e3588c56132c0003bc
     /// </summary>
+    [Tag(Category.Algorithms | Category.Trees | Category.DataStructures | Category.BinarySearchTrees | Category.Binary | Category.Performance)]
     public class SortBinaryTreeByLevels
     {
         public static List<int> TreeByLevels(Node node)

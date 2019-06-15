@@ -4,6 +4,9 @@ using Xunit;
 
 namespace Sandbox
 {
+    /// <summary>
+    /// https://www.codewars.com/kata/5629db57620258aa9d000014
+    /// </summary>
     public class Mixing
     {
         public static string Mix(string s1, string s2)

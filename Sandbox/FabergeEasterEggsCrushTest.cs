@@ -1,6 +1,7 @@
-﻿using System.Diagnostics;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
+using Sandbox.HelperUtils;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -9,6 +10,7 @@ namespace Sandbox
     /// <summary>
     /// https://www.codewars.com/kata/faberge-easter-eggs-crush-test/train/csharp
     /// </summary>
+    [Tag(Category.Algorithms | Category.Mathematics | Category.Numbers | Category.DynamicProgramming | Category.Performance)]
     public class FabergeEasterEggsCrushTest
     {
         private readonly ITestOutputHelper _output;
@@ -21,6 +23,7 @@ namespace Sandbox
 
         public BigInteger Height(int n, int m)
         {
+            // solution was copied, need to investigate the approach
             if (n == 0 || m == 0)
                 return 0;
             if (m < n)
@@ -33,6 +36,132 @@ namespace Sandbox
             }
             return sum;
         }
+
+        #region Alternative implementations
+
+        private static Dictionary<(int, int), BigInteger> _cache = new Dictionary<(int, int), BigInteger>();
+
+        private static BigInteger HeightFirst(int n, int m)
+        {
+            if (n == 1 || m == 1)
+            {
+                return m;
+            }
+
+            if (_cache.TryGetValue((n, m), out var result))
+            {
+                return result;
+            }
+
+            return _cache[(n, m)] = m + Enumerable.Range(1, m - 1).Select(k => HeightFirst(n - 1, k)).Aggregate((a, b) => a + b);
+        }
+
+        private static BigInteger Height2(int n, int m)
+        {
+            var array = new BigInteger[m];
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = i;
+            }
+
+            BigInteger[] array2 = new BigInteger[m];
+            array2[1] = BigInteger.One;
+
+            while (n-- != 2)
+            {
+                BigInteger s = 0;
+                for (int i = 2; i < array2.Length; i++)
+                {
+                    s += array[i - 1];
+                    array2[i] = i + s;
+                }
+
+                array = array2;
+                array2 = new BigInteger[m];
+                array2[1] = BigInteger.One;
+            }
+
+            return m + array.Aggregate((a, b) => a + b);
+        }
+
+        private static BigInteger Height3(int n, int m)
+        {
+            var array1 = new BigInteger[m];
+            BigInteger[] array2 = null;
+            while (n-- > 1)
+            {
+                array2 = new BigInteger[m];
+                for (int i = 0; i < m - 1; i++)
+                {
+                    array2[i + 1] = array1[i] + array2[i] + 1;
+                }
+
+                array1 = array2;
+            }
+
+            return m + array2.Aggregate((a, b) => a + b);
+        }
+
+        private static BigInteger Height4(int n, int m)
+        {
+            var array1 = new BigInteger[m];
+            BigInteger[] array2 = null;
+            var k = 0;
+            var q = BigInteger.Zero;
+            while (k++ < n - 1)
+            {
+                array2 = new BigInteger[m];
+                array2[k] = q = (q * 2 + 1);
+
+                for (int i = k; i < m - n + k; i++)
+                {
+                    array2[i + 1] = array1[i] + array2[i] + 1;
+                }
+
+                array1 = array2;
+            }
+
+            for (int i = 0; i < n - 1; i++)
+            {
+                array1[i + 1] = array1[i] * 2 + 1;
+            }
+
+            return m + array1.Aggregate((a, b) => a + b);
+        }
+
+        private static BigInteger Height5(int n, int m)
+        {
+            var array1 = new BigInteger[m];
+            var array2 = new BigInteger[m];
+            var array3 = new BigInteger[m];
+
+            var k = 0;
+            var q = BigInteger.Zero;
+            while (k++ < n - 1)
+            {
+                array2[k] = q = (q * 2 + 1);
+                for (int i = k; i < m - n + k; i++)
+                {
+                    array2[i + 1] = array1[i] + array2[i] + 1;
+                }
+
+                var t = array1;
+                array1 = array2;
+                array2 = array3;
+                array3 = t;
+
+            }
+
+            for (int i = 0; i < n - 1; i++)
+            {
+                array1[i + 1] = array1[i] * 2 + 1;
+            }
+
+            return m + array1.Aggregate((a, b) => a + b);
+        }
+
+
+        #endregion
 
         [Fact]
         public void BasicTests()

@@ -1,9 +1,14 @@
 ﻿using System;
 using System.Linq;
+using Sandbox.HelperUtils;
 using Xunit;
 
 namespace Sandbox
 {
+    /// <summary>
+    /// https://www.codewars.com/kata/546d15cebed2e10334000ed9
+    /// </summary>
+    [Tag(Category.Puzzles | Category.Mathematics | Category.Algorithms | Category.Numbers)]
     public class FindTheUnknownDigit
     {
         public static int solveExpression(string expression)

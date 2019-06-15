@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Sandbox.HelperUtils;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Sandbox
@@ -6,6 +7,7 @@ namespace Sandbox
     /// <summary>
     /// https://www.codewars.com/kata/5659c6d896bc135c4c00021e
     /// </summary>
+    [Tag(Category.Algorithms | Category.Numbers | Category.Strings | Category.Integers)]
     public class NextSmallerWithTheSameDigits
     {
         public static long NextSmaller2(long n)

@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using Sandbox.HelperUtils;
 using Xunit;
 
 namespace Sandbox
 {
     /// <summary>
-    /// https://www.codewars.com/kata/the-observed-pin/train/csharp
+    /// https://www.codewars.com/kata/5263c6999e0f40dee200059d
     /// </summary>
+    [Tag(Category.Algorithms)]
     public class TheObservedPins
     {
         public class GeneratingSource

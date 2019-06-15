@@ -1,8 +1,13 @@
 ﻿using System.Collections.Generic;
+using Sandbox.HelperUtils;
 using Xunit;
 
 namespace Sandbox
 {
+    /// <summary>
+    /// https://www.codewars.com/kata/529bf0e9bdf7657179000008
+    /// </summary>
+    [Tag(Category.Algorithms | Category.DataStructures | Category.Validation)]
     public class Sudoku
     {
         public static bool ValidateSolution(int[][] board)
