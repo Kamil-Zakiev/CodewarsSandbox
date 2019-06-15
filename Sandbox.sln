@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{9D3FE703-4EAC-4B54-909A-B1DB80CA39B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox", "Sandbox\Sandbox.csproj", "{9D3FE703-4EAC-4B54-909A-B1DB80CA39B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension.TagSorter", "Extension.TagSorter\Extension.TagSorter.csproj", "{664DFC3D-727E-4ED7-8C53-7C7B93CC32FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9D3FE703-4EAC-4B54-909A-B1DB80CA39B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D3FE703-4EAC-4B54-909A-B1DB80CA39B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D3FE703-4EAC-4B54-909A-B1DB80CA39B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664DFC3D-727E-4ED7-8C53-7C7B93CC32FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664DFC3D-727E-4ED7-8C53-7C7B93CC32FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664DFC3D-727E-4ED7-8C53-7C7B93CC32FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664DFC3D-727E-4ED7-8C53-7C7B93CC32FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
