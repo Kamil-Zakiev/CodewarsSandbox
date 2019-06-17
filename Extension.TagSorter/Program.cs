@@ -1,8 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 using Sandbox;
 using Sandbox.HelperUtils;
 
@@ -20,9 +20,9 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
             return $"- [{task}](Sandbox/{task}.cs)";
         }
 
-        static string CategoryFormatter(Category category)
+        static string CategoryFormatter(Category category, IEnumerable<string> tasks)
         {
-            return $"## {category}";
+            return $"## {category} ({tasks.Count()})";
         }
 
         static string TasksByCategories()
@@ -45,16 +45,18 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
                     var tasks = taskInfos
                         .Where(t => t.Tags.HasFlag(category))
                         .Select(t => t.Name)
-                        .Select(TaskNameFormatter);
+                        .Select(TaskNameFormatter)
+                        .ToArray();
 
                     return new
                     {
-                        category = CategoryFormatter(category),
-                        tasks = string.Join("\n", tasks)
+                        category = CategoryFormatter(category, tasks),
+                        tasks
                     };
                 })
-                .Where(data => data.tasks.Length != 0)
-                .Select(data => $"{data.category}\n\n{data.tasks}\n");
+                .Where(data => data.tasks.Any())
+                .OrderByDescending(data => data.tasks.Length)
+                .Select(data => $"{data.category}\n\n{string.Join("\n", data.tasks)}\n");
 
             return string.Join("\n", reportData);
         }

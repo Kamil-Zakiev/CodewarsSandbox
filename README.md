@@ -1,7 +1,7 @@
 # Sandbox
 The project aims to store the solutions of Codewars tasks. The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms
+## Algorithms (20)
 
 - [Bud](Sandbox/Bud.cs)
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
@@ -24,7 +24,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
-## Fundamentals
+## Fundamentals (13)
 
 - [BouncingBall](Sandbox/BouncingBall.cs)
 - [Bud](Sandbox/Bud.cs)
@@ -40,7 +40,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [SumSquaredDivisors](Sandbox/SumSquaredDivisors.cs)
 - [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 
-## Numbers
+## Numbers (13)
 
 - [Bud](Sandbox/Bud.cs)
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
@@ -56,7 +56,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
-## Mathematics
+## Mathematics (9)
 
 - [Bud](Sandbox/Bud.cs)
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
@@ -68,7 +68,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
-## Strings
+## Strings (5)
 
 - [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
 - [NextBiggerNumberWithSameDigits](Sandbox/NextBiggerNumberWithSameDigits.cs)
@@ -76,95 +76,95 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [NotVerySecure](Sandbox/NotVerySecure.cs)
 - [Rank](Sandbox/Rank.cs)
 
-## DataStructures
+## DataStructures (4)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [Sudoku](Sandbox/Sudoku.cs)
 
-## Bugs
-
-- [NotVerySecure](Sandbox/NotVerySecure.cs)
-
-## DatesTime
+## DatesTime (2)
 
 - [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
 - [TimeFormat](Sandbox/TimeFormat.cs)
 
-## DeclarativeProgramming
-
-- [NotVerySecure](Sandbox/NotVerySecure.cs)
-
-## DynamicProgramming
+## DynamicProgramming (2)
 
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 
-## Integers
+## Integers (2)
 
 - [NextBiggerNumberWithSameDigits](Sandbox/NextBiggerNumberWithSameDigits.cs)
 - [NextSmallerWithTheSameDigits](Sandbox/NextSmallerWithTheSameDigits.cs)
 
-## Performance
+## Performance (2)
 
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 
-## AdvancedLanguageFeatures
-
-- [NotVerySecure](Sandbox/NotVerySecure.cs)
-
-## Arrays
+## Arrays (2)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 
-## Binary
-
-- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
-
-## BinarySearchTrees
-
-- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
-
-## Formats
-
-- [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
-
-## Formatting
-
-- [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
-
-## Lists
-
-- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
-
-## Optimization
-
-- [SumSquaredDivisors](Sandbox/SumSquaredDivisors.cs)
-
-## Puzzles
-
-- [FindTheUnknownDigit](Sandbox/FindTheUnknownDigit.cs)
-
-## RegularExpressions
-
-- [NotVerySecure](Sandbox/NotVerySecure.cs)
-
-## Sorting
-
-- [Rank](Sandbox/Rank.cs)
-
-## Trees
-
-- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
-
-## Validation
+## Validation (2)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [Sudoku](Sandbox/Sudoku.cs)
 
-## Search
+## Bugs (1)
+
+- [NotVerySecure](Sandbox/NotVerySecure.cs)
+
+## DeclarativeProgramming (1)
+
+- [NotVerySecure](Sandbox/NotVerySecure.cs)
+
+## AdvancedLanguageFeatures (1)
+
+- [NotVerySecure](Sandbox/NotVerySecure.cs)
+
+## Binary (1)
+
+- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+
+## BinarySearchTrees (1)
+
+- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+
+## Formats (1)
+
+- [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
+
+## Formatting (1)
+
+- [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
+
+## Lists (1)
+
+- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
+
+## Optimization (1)
+
+- [SumSquaredDivisors](Sandbox/SumSquaredDivisors.cs)
+
+## Puzzles (1)
+
+- [FindTheUnknownDigit](Sandbox/FindTheUnknownDigit.cs)
+
+## RegularExpressions (1)
+
+- [NotVerySecure](Sandbox/NotVerySecure.cs)
+
+## Sorting (1)
+
+- [Rank](Sandbox/Rank.cs)
+
+## Trees (1)
+
+- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+
+## Search (1)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
