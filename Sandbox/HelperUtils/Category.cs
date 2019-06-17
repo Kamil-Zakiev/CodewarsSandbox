@@ -33,6 +33,7 @@ namespace Sandbox.HelperUtils
         RegularExpressions = 1 << 25,
         Sorting = 1 << 26,
         Trees = 1 << 27,
-        Validation = 1 << 28
+        Validation = 1 << 28,
+        Search = 1 << 29
     }
 }

@@ -4,6 +4,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 ## Algorithms
 
 - [Bud](Sandbox/Bud.cs)
+- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [FindTheUnknownDigit](Sandbox/FindTheUnknownDigit.cs)
 - [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
@@ -77,6 +78,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 
 ## DataStructures
 
+- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [Sudoku](Sandbox/Sudoku.cs)
@@ -115,6 +117,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 
 ## Arrays
 
+- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 
 ## Binary
@@ -159,4 +162,9 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 
 ## Validation
 
+- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [Sudoku](Sandbox/Sudoku.cs)
+
+## Search
+
+- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
