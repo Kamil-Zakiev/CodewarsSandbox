@@ -1,7 +1,7 @@
 # Sandbox
 The project aims to store the solutions of Codewars tasks. The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (23)
+## Algorithms (24)
 
 - [BitCounting](Sandbox/BitCounting.cs)
 - [Bud](Sandbox/Bud.cs)
@@ -9,6 +9,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [FindTheUnknownDigit](Sandbox/FindTheUnknownDigit.cs)
+- [FirstNonRepeatingChar](Sandbox/FirstNonRepeatingChar.cs)
 - [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
@@ -71,6 +72,15 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
+## Strings (6)
+
+- [FirstNonRepeatingChar](Sandbox/FirstNonRepeatingChar.cs)
+- [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
+- [NextBiggerNumberWithSameDigits](Sandbox/NextBiggerNumberWithSameDigits.cs)
+- [NextSmallerWithTheSameDigits](Sandbox/NextSmallerWithTheSameDigits.cs)
+- [NotVerySecure](Sandbox/NotVerySecure.cs)
+- [Rank](Sandbox/Rank.cs)
+
 ## DataStructures (6)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
@@ -79,14 +89,6 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [Sudoku](Sandbox/Sudoku.cs)
-
-## Strings (5)
-
-- [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
-- [NextBiggerNumberWithSameDigits](Sandbox/NextBiggerNumberWithSameDigits.cs)
-- [NextSmallerWithTheSameDigits](Sandbox/NextSmallerWithTheSameDigits.cs)
-- [NotVerySecure](Sandbox/NotVerySecure.cs)
-- [Rank](Sandbox/Rank.cs)
 
 ## Arrays (3)
 
@@ -123,6 +125,11 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [Sudoku](Sandbox/Sudoku.cs)
+
+## Search (2)
+
+- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
+- [FirstNonRepeatingChar](Sandbox/FirstNonRepeatingChar.cs)
 
 ## Graphs (2)
 
@@ -176,10 +183,6 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 ## Trees (1)
 
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
-
-## Search (1)
-
-- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 
 ## Bit (1)
 
