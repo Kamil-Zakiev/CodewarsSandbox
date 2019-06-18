@@ -1,10 +1,11 @@
 # Sandbox
 The project aims to store the solutions of Codewars tasks. The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (20)
+## Algorithms (21)
 
 - [Bud](Sandbox/Bud.cs)
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
+- [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [FindTheUnknownDigit](Sandbox/FindTheUnknownDigit.cs)
 - [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
@@ -76,12 +77,19 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [NotVerySecure](Sandbox/NotVerySecure.cs)
 - [Rank](Sandbox/Rank.cs)
 
-## DataStructures (4)
+## DataStructures (5)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
+- [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [Sudoku](Sandbox/Sudoku.cs)
+
+## Arrays (3)
+
+- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
+- [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
+- [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 
 ## DatesTime (2)
 
@@ -102,11 +110,6 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
-
-## Arrays (2)
-
-- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
-- [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 
 ## Validation (2)
 
@@ -168,3 +171,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 ## Search (1)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
+
+## Graphs (1)
+
+- [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)

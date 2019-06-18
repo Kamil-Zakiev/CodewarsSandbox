@@ -34,6 +34,7 @@ namespace Sandbox.HelperUtils
         Sorting = 1 << 26,
         Trees = 1 << 27,
         Validation = 1 << 28,
-        Search = 1 << 29
+        Search = 1 << 29,
+        Graphs = 1 << 30
     }
 }
