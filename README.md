@@ -121,6 +121,11 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [BitCounting](Sandbox/BitCounting.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 
+## Trees (2)
+
+- [MazePathfinding](Sandbox/MazePathfinding.cs)
+- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+
 ## Validation (2)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
@@ -179,10 +184,6 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 ## Sorting (1)
 
 - [Rank](Sandbox/Rank.cs)
-
-## Trees (1)
-
-- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 
 ## Bit (1)
 

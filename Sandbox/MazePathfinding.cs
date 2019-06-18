@@ -9,7 +9,7 @@ namespace Sandbox
     /// <summary>
     /// https://www.codewars.com/kata/56d08f810f9408079200102f
     /// </summary>
-    [Tag(Category.Algorithms | Category.Graphs | Category.DataStructures)]
+    [Tag(Category.Algorithms | Category.Graphs | Category.DataStructures | Category.Trees)]
     public class MazePathfinding
     {
         public static int[] FindPath(bool[] mazeFlags, int size, int startIndex, int goalIndex)
