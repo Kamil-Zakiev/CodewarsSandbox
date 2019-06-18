@@ -1,8 +1,9 @@
 # Sandbox
 The project aims to store the solutions of Codewars tasks. The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (21)
+## Algorithms (22)
 
+- [BitCounting](Sandbox/BitCounting.cs)
 - [Bud](Sandbox/Bud.cs)
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
@@ -111,6 +112,11 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 
+## Binary (2)
+
+- [BitCounting](Sandbox/BitCounting.cs)
+- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+
 ## Validation (2)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
@@ -127,10 +133,6 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 ## AdvancedLanguageFeatures (1)
 
 - [NotVerySecure](Sandbox/NotVerySecure.cs)
-
-## Binary (1)
-
-- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 
 ## BinarySearchTrees (1)
 
@@ -175,3 +177,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 ## Graphs (1)
 
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
+
+## Bit (1)
+
+- [BitCounting](Sandbox/BitCounting.cs)

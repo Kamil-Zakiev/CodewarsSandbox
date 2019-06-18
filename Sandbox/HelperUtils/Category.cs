@@ -35,6 +35,7 @@ namespace Sandbox.HelperUtils
         Trees = 1 << 27,
         Validation = 1 << 28,
         Search = 1 << 29,
-        Graphs = 1 << 30
+        Graphs = 1 << 30,
+        Bit = 1 << 31
     }
 }
