@@ -10,8 +10,9 @@ namespace Extension.TagSorter
 {
     class Program
     {
-        private const string Start = @"# Sandbox
-The project aims to store the solutions of Codewars tasks. The tasks are tagged with categories so I provide the same structure to my solutions below.
+        private const string Start = 
+@"# Sandbox
+The project aims to store the solutions of Codewars tasks (Currently solved {0} Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
 ";
 
@@ -25,7 +26,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
             return $"## {category} ({tasks.Count()})";
         }
 
-        static string TasksByCategories()
+        static (int, string) TasksByCategories()
         {
             var taskInfos = typeof(BouncingBall)
                 .Assembly
@@ -58,7 +59,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
                 .OrderByDescending(data => data.tasks.Length)
                 .Select(data => $"{data.category}\n\n{string.Join("\n", data.tasks)}\n");
 
-            return string.Join("\n", reportData);
+            return (taskInfos.Length, string.Join("\n", reportData));
         }
 
         static void Main(string[] args)
@@ -66,8 +67,8 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
             var pathParts = AppDomain.CurrentDomain.BaseDirectory.Split('\\');
             var rootPath = string.Join("\\", pathParts.Take(pathParts.Length - 5));
             var readmeFile = rootPath + @"\README.md";
-            var tasksByCategories = TasksByCategories();
-            File.WriteAllText(readmeFile, Start + tasksByCategories);
+            var (totalCount, tasksByCategories) = TasksByCategories();
+            File.WriteAllText(readmeFile, string.Format(Start, totalCount) + tasksByCategories);
         }
     }
 }

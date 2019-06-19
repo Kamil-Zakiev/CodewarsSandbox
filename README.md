@@ -1,5 +1,5 @@
 # Sandbox
-The project aims to store the solutions of Codewars tasks. The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved 36 Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
 ## Algorithms (26)
 
