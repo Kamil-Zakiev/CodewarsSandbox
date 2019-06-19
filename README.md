@@ -1,5 +1,5 @@
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved 37 Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved 38 Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
 ## Algorithms (27)
 
@@ -31,8 +31,9 @@ The project aims to store the solutions of Codewars tasks (Currently solved 37 K
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
 
-## Fundamentals (14)
+## Fundamentals (15)
 
+- [AddingBinaryNumbers](Sandbox/AddingBinaryNumbers.cs)
 - [BouncingBall](Sandbox/BouncingBall.cs)
 - [Bud](Sandbox/Bud.cs)
 - [ConnectFour](Sandbox/ConnectFour.cs)
@@ -98,11 +99,19 @@ The project aims to store the solutions of Codewars tasks (Currently solved 37 K
 - [NotVerySecure](Sandbox/NotVerySecure.cs)
 - [Rank](Sandbox/Rank.cs)
 
-## Binary (4)
+## Binary (5)
 
+- [AddingBinaryNumbers](Sandbox/AddingBinaryNumbers.cs)
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+- [IntToIP](Sandbox/IntToIP.cs)
+
+## Bit (4)
+
+- [AddingBinaryNumbers](Sandbox/AddingBinaryNumbers.cs)
+- [BitCalculator](Sandbox/BitCalculator.cs)
+- [BitCounting](Sandbox/BitCounting.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
 
 ## Arrays (3)
@@ -116,12 +125,6 @@ The project aims to store the solutions of Codewars tasks (Currently solved 37 K
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
-
-## Bit (3)
-
-- [BitCalculator](Sandbox/BitCalculator.cs)
-- [BitCounting](Sandbox/BitCounting.cs)
-- [IntToIP](Sandbox/IntToIP.cs)
 
 ## DatesTime (2)
 
