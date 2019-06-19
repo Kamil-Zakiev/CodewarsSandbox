@@ -26,7 +26,7 @@ namespace Sandbox.HelperUtils
         BinarySearchTrees = 1 << 18,
         Formats = 1 << 19,
         Formatting = 1 << 20,
-        FunctionalProgramming = 1 << 21,
+        LinkedLists = 1 << 21,
         Lists = 1 << 22,
         Optimization = 1 << 23,
         Puzzles = 1 << 24,

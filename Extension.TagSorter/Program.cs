@@ -63,7 +63,9 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 
         static void Main(string[] args)
         {
-            const string readmeFile = @"G:\Sandbox\README.md";
+            var pathParts = AppDomain.CurrentDomain.BaseDirectory.Split('\\');
+            var rootPath = string.Join("\\", pathParts.Take(pathParts.Length - 5));
+            var readmeFile = rootPath + @"\README.md";
             var tasksByCategories = TasksByCategories();
             File.WriteAllText(readmeFile, Start + tasksByCategories);
         }

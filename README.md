@@ -28,7 +28,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
-## Fundamentals (13)
+## Fundamentals (14)
 
 - [BouncingBall](Sandbox/BouncingBall.cs)
 - [Bud](Sandbox/Bud.cs)
@@ -36,6 +36,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [FactDecomp](Sandbox/FactDecomp.cs)
 - [FindTheOddInt](Sandbox/FindTheOddInt.cs)
 - [GapInPrimes](Sandbox/GapInPrimes.cs)
+- [InsertNthNode](Sandbox/InsertNthNode.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [NotVerySecure](Sandbox/NotVerySecure.cs)
 - [PersistentBugger](Sandbox/PersistentBugger.cs)
@@ -72,6 +73,16 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
+## DataStructures (7)
+
+- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
+- [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
+- [InsertNthNode](Sandbox/InsertNthNode.cs)
+- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
+- [MazePathfinding](Sandbox/MazePathfinding.cs)
+- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+- [Sudoku](Sandbox/Sudoku.cs)
+
 ## Strings (6)
 
 - [FirstNonRepeatingChar](Sandbox/FirstNonRepeatingChar.cs)
@@ -80,15 +91,6 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [NextSmallerWithTheSameDigits](Sandbox/NextSmallerWithTheSameDigits.cs)
 - [NotVerySecure](Sandbox/NotVerySecure.cs)
 - [Rank](Sandbox/Rank.cs)
-
-## DataStructures (6)
-
-- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
-- [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
-- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
-- [MazePathfinding](Sandbox/MazePathfinding.cs)
-- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
-- [Sudoku](Sandbox/Sudoku.cs)
 
 ## Arrays (3)
 
@@ -120,6 +122,11 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 
 - [BitCounting](Sandbox/BitCounting.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+
+## Lists (2)
+
+- [InsertNthNode](Sandbox/InsertNthNode.cs)
+- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 
 ## Trees (2)
 
@@ -165,9 +172,9 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 
 - [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
 
-## Lists (1)
+## LinkedLists (1)
 
-- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
+- [InsertNthNode](Sandbox/InsertNthNode.cs)
 
 ## Optimization (1)
 
