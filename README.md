@@ -1,8 +1,9 @@
 # Sandbox
 The project aims to store the solutions of Codewars tasks. The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (25)
+## Algorithms (26)
 
+- [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
 - [Bud](Sandbox/Bud.cs)
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
@@ -46,8 +47,9 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [SumSquaredDivisors](Sandbox/SumSquaredDivisors.cs)
 - [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 
-## Numbers (13)
+## Numbers (14)
 
+- [BitCalculator](Sandbox/BitCalculator.cs)
 - [Bud](Sandbox/Bud.cs)
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [FindTheUnknownDigit](Sandbox/FindTheUnknownDigit.cs)
@@ -62,8 +64,9 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
-## Mathematics (9)
+## Mathematics (10)
 
+- [BitCalculator](Sandbox/BitCalculator.cs)
 - [Bud](Sandbox/Bud.cs)
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [FindTheUnknownDigit](Sandbox/FindTheUnknownDigit.cs)
@@ -100,6 +103,12 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
 - [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 
+## Binary (3)
+
+- [BitCalculator](Sandbox/BitCalculator.cs)
+- [BitCounting](Sandbox/BitCounting.cs)
+- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+
 ## Lists (3)
 
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
@@ -126,11 +135,6 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 
-## Binary (2)
-
-- [BitCounting](Sandbox/BitCounting.cs)
-- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
-
 ## LinkedLists (2)
 
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
@@ -155,6 +159,11 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
+
+## Bit (2)
+
+- [BitCalculator](Sandbox/BitCalculator.cs)
+- [BitCounting](Sandbox/BitCounting.cs)
 
 ## Bugs (1)
 
@@ -195,7 +204,3 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 ## Sorting (1)
 
 - [Rank](Sandbox/Rank.cs)
-
-## Bit (1)
-
-- [BitCounting](Sandbox/BitCounting.cs)
