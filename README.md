@@ -1,7 +1,7 @@
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved 36 Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved 37 Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (26)
+## Algorithms (27)
 
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
@@ -29,6 +29,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved 36 K
 - [TheObservedPins](Sandbox/TheObservedPins.cs)
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
+- [IntToIP](Sandbox/IntToIP.cs)
 
 ## Fundamentals (14)
 
@@ -97,23 +98,30 @@ The project aims to store the solutions of Codewars tasks (Currently solved 36 K
 - [NotVerySecure](Sandbox/NotVerySecure.cs)
 - [Rank](Sandbox/Rank.cs)
 
+## Binary (4)
+
+- [BitCalculator](Sandbox/BitCalculator.cs)
+- [BitCounting](Sandbox/BitCounting.cs)
+- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+- [IntToIP](Sandbox/IntToIP.cs)
+
 ## Arrays (3)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
 - [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 
-## Binary (3)
-
-- [BitCalculator](Sandbox/BitCalculator.cs)
-- [BitCounting](Sandbox/BitCounting.cs)
-- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
-
 ## Lists (3)
 
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
+
+## Bit (3)
+
+- [BitCalculator](Sandbox/BitCalculator.cs)
+- [BitCounting](Sandbox/BitCounting.cs)
+- [IntToIP](Sandbox/IntToIP.cs)
 
 ## DatesTime (2)
 
@@ -159,11 +167,6 @@ The project aims to store the solutions of Codewars tasks (Currently solved 36 K
 
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
-
-## Bit (2)
-
-- [BitCalculator](Sandbox/BitCalculator.cs)
-- [BitCounting](Sandbox/BitCounting.cs)
 
 ## Bugs (1)
 

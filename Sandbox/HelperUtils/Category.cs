@@ -3,7 +3,7 @@
 namespace Sandbox.HelperUtils
 {
     [Flags]
-    public enum Category
+    public enum Category : long
     {
         Algorithms = 1,
         Fundamentals = 1 << 1,
