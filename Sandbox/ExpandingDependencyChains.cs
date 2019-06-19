@@ -118,7 +118,12 @@ namespace Sandbox
             var actualFiles = ExpandDependencies_WithoutRecursion(startFiles);
     
             // Assert
-            Assert.Equal(actualFiles, correctFiles);
+            
+            Assert.Equal(actualFiles.Count, correctFiles.Count);
+            Assert.Equal(actualFiles["A"].OrderBy(x => x), correctFiles["A"].OrderBy(x => x));
+            Assert.Equal(actualFiles["B"].OrderBy(x => x), correctFiles["B"].OrderBy(x => x));
+            Assert.Equal(actualFiles["C"].OrderBy(x => x), correctFiles["C"].OrderBy(x => x));
+            Assert.Equal(actualFiles["D"].OrderBy(x => x), correctFiles["D"].OrderBy(x => x));
         }
   
         [Fact]

@@ -1,7 +1,7 @@
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved 38 Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved 39 Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (27)
+## Algorithms (28)
 
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
@@ -12,6 +12,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved 38 K
 - [FindTheUnknownDigit](Sandbox/FindTheUnknownDigit.cs)
 - [FirstNonRepeatingChar](Sandbox/FirstNonRepeatingChar.cs)
 - [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
+- [IsPerfectTree](Sandbox/IsPerfectTree.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
 - [MultiplesOf3or5](Sandbox/MultiplesOf3or5.cs)
@@ -79,11 +80,12 @@ The project aims to store the solutions of Codewars tasks (Currently solved 38 K
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
-## DataStructures (8)
+## DataStructures (9)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
+- [IsPerfectTree](Sandbox/IsPerfectTree.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
@@ -99,11 +101,12 @@ The project aims to store the solutions of Codewars tasks (Currently solved 38 K
 - [NotVerySecure](Sandbox/NotVerySecure.cs)
 - [Rank](Sandbox/Rank.cs)
 
-## Binary (5)
+## Binary (6)
 
 - [AddingBinaryNumbers](Sandbox/AddingBinaryNumbers.cs)
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
+- [IsPerfectTree](Sandbox/IsPerfectTree.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
 
@@ -126,6 +129,12 @@ The project aims to store the solutions of Codewars tasks (Currently solved 38 K
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
 
+## Trees (3)
+
+- [IsPerfectTree](Sandbox/IsPerfectTree.cs)
+- [MazePathfinding](Sandbox/MazePathfinding.cs)
+- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+
 ## DatesTime (2)
 
 - [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
@@ -146,15 +155,15 @@ The project aims to store the solutions of Codewars tasks (Currently solved 38 K
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 
+## BinarySearchTrees (2)
+
+- [IsPerfectTree](Sandbox/IsPerfectTree.cs)
+- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+
 ## LinkedLists (2)
 
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
-
-## Trees (2)
-
-- [MazePathfinding](Sandbox/MazePathfinding.cs)
-- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 
 ## Validation (2)
 
@@ -182,10 +191,6 @@ The project aims to store the solutions of Codewars tasks (Currently solved 38 K
 ## AdvancedLanguageFeatures (1)
 
 - [NotVerySecure](Sandbox/NotVerySecure.cs)
-
-## BinarySearchTrees (1)
-
-- [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 
 ## Formats (1)
 
