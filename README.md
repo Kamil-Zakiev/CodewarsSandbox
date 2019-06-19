@@ -1,7 +1,7 @@
 # Sandbox
 The project aims to store the solutions of Codewars tasks. The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (24)
+## Algorithms (25)
 
 - [BitCounting](Sandbox/BitCounting.cs)
 - [Bud](Sandbox/Bud.cs)
@@ -18,6 +18,7 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [NextSmallerWithTheSameDigits](Sandbox/NextSmallerWithTheSameDigits.cs)
 - [NumberOfTrailingZeros](Sandbox/NumberOfTrailingZeros.cs)
 - [ParityOutlier](Sandbox/ParityOutlier.cs)
+- [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
 - [PerimeterOfSquares](Sandbox/PerimeterOfSquares.cs)
 - [Rank](Sandbox/Rank.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
@@ -73,13 +74,14 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
-## DataStructures (7)
+## DataStructures (8)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
+- [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [Sudoku](Sandbox/Sudoku.cs)
 
@@ -97,6 +99,12 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
 - [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
+
+## Lists (3)
+
+- [InsertNthNode](Sandbox/InsertNthNode.cs)
+- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
+- [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
 
 ## DatesTime (2)
 
@@ -123,10 +131,10 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 - [BitCounting](Sandbox/BitCounting.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 
-## Lists (2)
+## LinkedLists (2)
 
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
-- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
+- [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
 
 ## Trees (2)
 
@@ -171,10 +179,6 @@ The project aims to store the solutions of Codewars tasks. The tasks are tagged 
 ## Formatting (1)
 
 - [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
-
-## LinkedLists (1)
-
-- [InsertNthNode](Sandbox/InsertNthNode.cs)
 
 ## Optimization (1)
 
