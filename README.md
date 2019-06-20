@@ -1,5 +1,5 @@
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved 39 Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved 40 Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
 ## Algorithms (28)
 
@@ -32,7 +32,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved 39 K
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
 
-## Fundamentals (15)
+## Fundamentals (16)
 
 - [AddingBinaryNumbers](Sandbox/AddingBinaryNumbers.cs)
 - [BouncingBall](Sandbox/BouncingBall.cs)
@@ -49,6 +49,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved 39 K
 - [SumOfK](Sandbox/SumOfK.cs)
 - [SumSquaredDivisors](Sandbox/SumSquaredDivisors.cs)
 - [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
+- [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
 
 ## Numbers (14)
 
@@ -80,7 +81,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved 39 K
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
-## DataStructures (9)
+## DataStructures (10)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
@@ -91,6 +92,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved 39 K
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [Sudoku](Sandbox/Sudoku.cs)
+- [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
 
 ## Strings (6)
 
@@ -110,6 +112,13 @@ The project aims to store the solutions of Codewars tasks (Currently solved 39 K
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
 
+## Lists (4)
+
+- [InsertNthNode](Sandbox/InsertNthNode.cs)
+- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
+- [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
+- [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
+
 ## Bit (4)
 
 - [AddingBinaryNumbers](Sandbox/AddingBinaryNumbers.cs)
@@ -123,11 +132,11 @@ The project aims to store the solutions of Codewars tasks (Currently solved 39 K
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
 - [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 
-## Lists (3)
+## LinkedLists (3)
 
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
-- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
+- [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
 
 ## Trees (3)
 
@@ -159,11 +168,6 @@ The project aims to store the solutions of Codewars tasks (Currently solved 39 K
 
 - [IsPerfectTree](Sandbox/IsPerfectTree.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
-
-## LinkedLists (2)
-
-- [InsertNthNode](Sandbox/InsertNthNode.cs)
-- [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
 
 ## Validation (2)
 
