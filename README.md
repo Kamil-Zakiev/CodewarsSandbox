@@ -1,8 +1,7 @@
-[![Travis](https://img.shields.io/travis/Kamil-Zakiev/CodewarsSandbox.svg?label=build%20and%20test)](https://img.shields.io/travis/Kamil-Zakiev/CodewarsSandbox.svg?label=build%20and%20test)
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved 40 Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved 41 Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (28)
+## Algorithms (29)
 
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
@@ -20,6 +19,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved 40 K
 - [NextBiggerNumberWithSameDigits](Sandbox/NextBiggerNumberWithSameDigits.cs)
 - [NextSmallerWithTheSameDigits](Sandbox/NextSmallerWithTheSameDigits.cs)
 - [NumberOfTrailingZeros](Sandbox/NumberOfTrailingZeros.cs)
+- [Packer](Sandbox/Packer.cs)
 - [ParityOutlier](Sandbox/ParityOutlier.cs)
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
 - [PerimeterOfSquares](Sandbox/PerimeterOfSquares.cs)
@@ -127,6 +127,12 @@ The project aims to store the solutions of Codewars tasks (Currently solved 40 K
 - [BitCounting](Sandbox/BitCounting.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
 
+## DynamicProgramming (3)
+
+- [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
+- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
+- [Packer](Sandbox/Packer.cs)
+
 ## Arrays (3)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
@@ -149,11 +155,6 @@ The project aims to store the solutions of Codewars tasks (Currently solved 40 K
 
 - [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
 - [TimeFormat](Sandbox/TimeFormat.cs)
-
-## DynamicProgramming (2)
-
-- [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
-- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 
 ## Integers (2)
 

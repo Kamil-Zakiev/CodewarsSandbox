@@ -1,4 +1,4 @@
-using System.Linq;
+using System;
 using Sandbox.HelperUtils;
 using Xunit;
 
@@ -12,40 +12,30 @@ namespace Sandbox
     {
         public static int PackBagpack(int[] scores, int[] weights, int capacity)
         {
-            var items = scores.Zip(weights, (score, weight) => (score, weight)).ToArray();
-            
-            return A(items, capacity);
+            return MaxScorePriorToPointer(scores, weights, scores.Length - 1, capacity);
         }
 
-        public static int A((int price, int weight)[] items, int capacity)
+        public static int MaxScorePriorToPointer(int[] prices, int[] weights, int pointer, int capacity)
         {
-            if (capacity <= 0 || items.Length == 0)
+            if (capacity == 0 || pointer == -1)
             {
                 return 0;
             }
-            
-            var (price, weight) = items.Last();
-            var exceptLast = items.SkipLast(1).ToArray();
-            var a = A(exceptLast, capacity);
-            var leftCapacity = capacity - weight;
-            if (leftCapacity < 0)
-            {
-                return a;
-            }
-            
-            var b = price + A(exceptLast, leftCapacity);
 
-            return a > b ? a : b;
+            var pointedIsNotIncluded = MaxScorePriorToPointer(prices, weights, pointer - 1, capacity);
+            var leftCapacity = capacity - weights[pointer];
+            var pointedIsInculed = leftCapacity >= 0
+                ? prices[pointer] + MaxScorePriorToPointer(prices, weights, pointer - 1, leftCapacity)
+                : 0;
+
+            return Math.Max(pointedIsNotIncluded, pointedIsInculed);
         }
-        
+
         [Fact]
         public static void ExampleTests()
         {
             Assert.Equal(29, PackBagpack(new[] {15, 10, 9, 5}, new[] {1, 5, 3, 4}, 8));
-            Assert.Equal(60, PackBagpack(
-                new[] {20, 5, 10, 40, 15, 25}, 
-                new[] { 1, 2,  3,  8,  7,  4},
-                10));
+            Assert.Equal(60, PackBagpack(new[] {20, 5, 10, 40, 15, 25}, new[] { 1, 2,  3,  8,  7,  4}, 10));
         }
     }
 }
