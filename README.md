@@ -1,6 +1,6 @@
-[![Travis](https://img.shields.io/travis/Kamil-Zakiev/CodewarsSandbox.svg?label=build%20and%20test)](https://img.shields.io/travis/Kamil-Zakiev/CodewarsSandbox.svg?label=build%20and%20test)
+[![Build Status](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox.svg?branch=master)](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox)
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved 41 Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved **41 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
 ## Algorithms (29)
 

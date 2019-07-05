@@ -10,10 +10,11 @@ namespace Extension.TagSorter
 {
     class Program
     {
-        private const string Start =
-@"[![Travis](https://img.shields.io/travis/Kamil-Zakiev/CodewarsSandbox.svg?label=build%20and%20test)](https://img.shields.io/travis/Kamil-Zakiev/CodewarsSandbox.svg?label=build%20and%20test)
+        private const string TravisMarkdown = @"[![Build Status](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox.svg?branch=master)](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox)";
+        private const string Start = TravisMarkdown +
+@"
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved {0} Kata). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved **{0} Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
 ";
 
