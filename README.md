@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox.svg?branch=master)](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox)
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved **41 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved **42 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (29)
+## Algorithms (30)
 
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
@@ -16,6 +16,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved **41
 - [IsPerfectTree](Sandbox/IsPerfectTree.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
+- [MinPathSquare](Sandbox/MinPathSquare.cs)
 - [MultiplesOf3or5](Sandbox/MultiplesOf3or5.cs)
 - [NextBiggerNumberWithSameDigits](Sandbox/NextBiggerNumberWithSameDigits.cs)
 - [NextSmallerWithTheSameDigits](Sandbox/NextSmallerWithTheSameDigits.cs)
@@ -114,6 +115,13 @@ The project aims to store the solutions of Codewars tasks (Currently solved **41
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
 
+## DynamicProgramming (4)
+
+- [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
+- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
+- [MinPathSquare](Sandbox/MinPathSquare.cs)
+- [Packer](Sandbox/Packer.cs)
+
 ## Lists (4)
 
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
@@ -127,12 +135,6 @@ The project aims to store the solutions of Codewars tasks (Currently solved **41
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
-
-## DynamicProgramming (3)
-
-- [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
-- [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
-- [Packer](Sandbox/Packer.cs)
 
 ## Arrays (3)
 
