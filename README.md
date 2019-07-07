@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox.svg?branch=master)](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox)
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved **44 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved **45 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (32)
+## Algorithms (33)
 
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
@@ -28,6 +28,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved **44
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
 - [PerimeterOfSquares](Sandbox/PerimeterOfSquares.cs)
 - [Rank](Sandbox/Rank.cs)
+- [ReverseLinkedList](Sandbox/ReverseLinkedList.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [Sudoku](Sandbox/Sudoku.cs)
 - [Suite](Sandbox/Suite.cs)
@@ -73,7 +74,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved **44
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
-## DataStructures (12)
+## DataStructures (13)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
@@ -84,6 +85,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved **44
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
+- [ReverseLinkedList](Sandbox/ReverseLinkedList.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [Sudoku](Sandbox/Sudoku.cs)
 - [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
@@ -119,12 +121,13 @@ The project aims to store the solutions of Codewars tasks (Currently solved **44
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
 
-## Lists (5)
+## Lists (6)
 
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
 - [LogisticMapTask](Sandbox/LogisticMapTask.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
+- [ReverseLinkedList](Sandbox/ReverseLinkedList.cs)
 - [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
 
 ## DynamicProgramming (4)
@@ -141,6 +144,13 @@ The project aims to store the solutions of Codewars tasks (Currently solved **44
 - [LogisticMapTask](Sandbox/LogisticMapTask.cs)
 - [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 
+## LinkedLists (4)
+
+- [InsertNthNode](Sandbox/InsertNthNode.cs)
+- [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
+- [ReverseLinkedList](Sandbox/ReverseLinkedList.cs)
+- [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
+
 ## Graphs (4)
 
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
@@ -154,12 +164,6 @@ The project aims to store the solutions of Codewars tasks (Currently solved **44
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
-
-## LinkedLists (3)
-
-- [InsertNthNode](Sandbox/InsertNthNode.cs)
-- [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
-- [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
 
 ## Trees (3)
 
