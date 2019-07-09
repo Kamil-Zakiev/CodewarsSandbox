@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox.svg?branch=master)](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox)
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved **46 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved **47 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (33)
+## Algorithms (34)
 
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
@@ -19,6 +19,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved **46
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
 - [MinPathSquare](Sandbox/MinPathSquare.cs)
+- [MovingZerosTask](Sandbox/MovingZerosTask.cs)
 - [MultiplesOf3or5](Sandbox/MultiplesOf3or5.cs)
 - [NextBiggerNumberWithSameDigits](Sandbox/NextBiggerNumberWithSameDigits.cs)
 - [NextSmallerWithTheSameDigits](Sandbox/NextSmallerWithTheSameDigits.cs)
@@ -133,6 +134,14 @@ The project aims to store the solutions of Codewars tasks (Currently solved **46
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
 
+## Arrays (5)
+
+- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
+- [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
+- [LogisticMapTask](Sandbox/LogisticMapTask.cs)
+- [MovingZerosTask](Sandbox/MovingZerosTask.cs)
+- [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
+
 ## LinkedLists (5)
 
 - [DistinctLinkedList](Sandbox/DistinctLinkedList.cs)
@@ -147,13 +156,6 @@ The project aims to store the solutions of Codewars tasks (Currently solved **46
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [MinPathSquare](Sandbox/MinPathSquare.cs)
 - [Packer](Sandbox/Packer.cs)
-
-## Arrays (4)
-
-- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
-- [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
-- [LogisticMapTask](Sandbox/LogisticMapTask.cs)
-- [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 
 ## Graphs (4)
 
@@ -194,6 +196,11 @@ The project aims to store the solutions of Codewars tasks (Currently solved **46
 
 - [IsPerfectTree](Sandbox/IsPerfectTree.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
+
+## Sorting (2)
+
+- [MovingZerosTask](Sandbox/MovingZerosTask.cs)
+- [Rank](Sandbox/Rank.cs)
 
 ## Validation (2)
 
@@ -236,7 +243,3 @@ The project aims to store the solutions of Codewars tasks (Currently solved **46
 ## RegularExpressions (1)
 
 - [NotVerySecure](Sandbox/NotVerySecure.cs)
-
-## Sorting (1)
-
-- [Rank](Sandbox/Rank.cs)
