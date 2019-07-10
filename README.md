@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox.svg?branch=master)](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox)
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved **48 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved **49 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (35)
+## Algorithms (36)
 
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
@@ -10,6 +10,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved **48
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [ExpandingDependencyChains](Sandbox/ExpandingDependencyChains.cs)
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
+- [Fibonacci](Sandbox/Fibonacci.cs)
 - [FindAreaTask](Sandbox/FindAreaTask.cs)
 - [FindTheUnknownDigit](Sandbox/FindTheUnknownDigit.cs)
 - [FirstNonRepeatingChar](Sandbox/FirstNonRepeatingChar.cs)
@@ -60,11 +61,12 @@ The project aims to store the solutions of Codewars tasks (Currently solved **48
 - [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 - [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
 
-## Numbers (14)
+## Numbers (15)
 
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [Bud](Sandbox/Bud.cs)
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
+- [Fibonacci](Sandbox/Fibonacci.cs)
 - [FindTheUnknownDigit](Sandbox/FindTheUnknownDigit.cs)
 - [GapInPrimes](Sandbox/GapInPrimes.cs)
 - [MultiplesOf3or5](Sandbox/MultiplesOf3or5.cs)
@@ -94,11 +96,12 @@ The project aims to store the solutions of Codewars tasks (Currently solved **48
 - [Sudoku](Sandbox/Sudoku.cs)
 - [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
 
-## Mathematics (10)
+## Mathematics (11)
 
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [Bud](Sandbox/Bud.cs)
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
+- [Fibonacci](Sandbox/Fibonacci.cs)
 - [FindTheUnknownDigit](Sandbox/FindTheUnknownDigit.cs)
 - [MultiplesOf3or5](Sandbox/MultiplesOf3or5.cs)
 - [NumberOfTrailingZeros](Sandbox/NumberOfTrailingZeros.cs)
