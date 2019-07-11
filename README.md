@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox.svg?branch=master)](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox)
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved **49 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved **50 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
-## Algorithms (36)
+## Algorithms (37)
 
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
@@ -20,6 +20,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved **49
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
 - [MinPathSquare](Sandbox/MinPathSquare.cs)
+- [MostSimilarString](Sandbox/MostSimilarString.cs)
 - [MovingZerosTask](Sandbox/MovingZerosTask.cs)
 - [MultiplesOf3or5](Sandbox/MultiplesOf3or5.cs)
 - [NextBiggerNumberWithSameDigits](Sandbox/NextBiggerNumberWithSameDigits.cs)
@@ -79,7 +80,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved **49
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
-## DataStructures (14)
+## DataStructures (15)
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [DistinctLinkedList](Sandbox/DistinctLinkedList.cs)
@@ -90,6 +91,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved **49
 - [LogisticMapTask](Sandbox/LogisticMapTask.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
+- [MostSimilarString](Sandbox/MostSimilarString.cs)
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
 - [ReverseLinkedList](Sandbox/ReverseLinkedList.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
@@ -188,6 +190,12 @@ The project aims to store the solutions of Codewars tasks (Currently solved **49
 - [MazePathfinding](Sandbox/MazePathfinding.cs)
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 
+## Search (3)
+
+- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
+- [FirstNonRepeatingChar](Sandbox/FirstNonRepeatingChar.cs)
+- [MostSimilarString](Sandbox/MostSimilarString.cs)
+
 ## DatesTime (2)
 
 - [HumanTimeFormat](Sandbox/HumanTimeFormat.cs)
@@ -212,11 +220,6 @@ The project aims to store the solutions of Codewars tasks (Currently solved **49
 
 - [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
 - [Sudoku](Sandbox/Sudoku.cs)
-
-## Search (2)
-
-- [ChessSharpTranslation](Sandbox/ChessSharpTranslation.cs)
-- [FirstNonRepeatingChar](Sandbox/FirstNonRepeatingChar.cs)
 
 ## Bugs (1)
 
