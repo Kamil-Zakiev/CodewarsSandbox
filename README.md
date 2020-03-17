@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox.svg?branch=master)](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox)
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved **51 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved **52 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
 ## Algorithms (37)
 
@@ -112,6 +112,16 @@ The project aims to store the solutions of Codewars tasks (Currently solved **51
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
+## LinkedLists (7)
+
+- [CopyList](Sandbox/CopyList.cs)
+- [DistinctLinkedList](Sandbox/DistinctLinkedList.cs)
+- [InsertionSortList](Sandbox/InsertionSortList.cs)
+- [InsertNthNode](Sandbox/InsertNthNode.cs)
+- [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
+- [ReverseLinkedList](Sandbox/ReverseLinkedList.cs)
+- [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
+
 ## Lists (7)
 
 - [DistinctLinkedList](Sandbox/DistinctLinkedList.cs)
@@ -149,21 +159,19 @@ The project aims to store the solutions of Codewars tasks (Currently solved **51
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
 
-## LinkedLists (6)
-
-- [CopyList](Sandbox/CopyList.cs)
-- [DistinctLinkedList](Sandbox/DistinctLinkedList.cs)
-- [InsertNthNode](Sandbox/InsertNthNode.cs)
-- [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
-- [ReverseLinkedList](Sandbox/ReverseLinkedList.cs)
-- [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
-
 ## DynamicProgramming (4)
 
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [MinPathSquare](Sandbox/MinPathSquare.cs)
 - [Packer](Sandbox/Packer.cs)
+
+## Sorting (4)
+
+- [InsertionSortList](Sandbox/InsertionSortList.cs)
+- [MovingZerosTask](Sandbox/MovingZerosTask.cs)
+- [Rank](Sandbox/Rank.cs)
+- [SortingTheRabbitHole](Sandbox/SortingTheRabbitHole.cs)
 
 ## Graphs (4)
 
@@ -178,12 +186,6 @@ The project aims to store the solutions of Codewars tasks (Currently solved **51
 - [BitCalculator](Sandbox/BitCalculator.cs)
 - [BitCounting](Sandbox/BitCounting.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
-
-## Sorting (3)
-
-- [MovingZerosTask](Sandbox/MovingZerosTask.cs)
-- [Rank](Sandbox/Rank.cs)
-- [SortingTheRabbitHole](Sandbox/SortingTheRabbitHole.cs)
 
 ## Trees (3)
 
