@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox.svg?branch=master)](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox)
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved **53 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved **54 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
 ## Algorithms (37)
 
@@ -112,7 +112,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved **53
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
 
-## LinkedLists (8)
+## LinkedLists (9)
 
 - [AddTwoNumbers](Sandbox/AddTwoNumbers.cs)
 - [CopyList](Sandbox/CopyList.cs)
@@ -120,6 +120,7 @@ The project aims to store the solutions of Codewars tasks (Currently solved **53
 - [InsertionSortList](Sandbox/InsertionSortList.cs)
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
 - [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
+- [ReorderList](Sandbox/ReorderList.cs)
 - [ReverseLinkedList](Sandbox/ReverseLinkedList.cs)
 - [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
 
