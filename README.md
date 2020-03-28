@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox.svg?branch=master)](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox)
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved **56 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved **57 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
 ## Algorithms (37)
 
@@ -98,6 +98,21 @@ The project aims to store the solutions of Codewars tasks (Currently solved **56
 - [Sudoku](Sandbox/Sudoku.cs)
 - [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
 
+## LinkedLists (12)
+
+- [AddTwoNumbers](Sandbox/AddTwoNumbers.cs)
+- [CopyList](Sandbox/CopyList.cs)
+- [DistinctLinkedList](Sandbox/DistinctLinkedList.cs)
+- [InsertionSortList](Sandbox/InsertionSortList.cs)
+- [InsertNthNode](Sandbox/InsertNthNode.cs)
+- [ListCycle](Sandbox/ListCycle.cs)
+- [MergeSort](Sandbox/MergeSort.cs)
+- [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
+- [ReorderList](Sandbox/ReorderList.cs)
+- [ReverseLinkedList](Sandbox/ReverseLinkedList.cs)
+- [SwapNodePairs](Sandbox/SwapNodePairs.cs)
+- [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
+
 ## Mathematics (11)
 
 - [BitCalculator](Sandbox/BitCalculator.cs)
@@ -111,20 +126,6 @@ The project aims to store the solutions of Codewars tasks (Currently solved **56
 - [Suite](Sandbox/Suite.cs)
 - [TimeFormat](Sandbox/TimeFormat.cs)
 - [TwiceLinear](Sandbox/TwiceLinear.cs)
-
-## LinkedLists (11)
-
-- [AddTwoNumbers](Sandbox/AddTwoNumbers.cs)
-- [CopyList](Sandbox/CopyList.cs)
-- [DistinctLinkedList](Sandbox/DistinctLinkedList.cs)
-- [InsertionSortList](Sandbox/InsertionSortList.cs)
-- [InsertNthNode](Sandbox/InsertNthNode.cs)
-- [ListCycle](Sandbox/ListCycle.cs)
-- [ParseLinkedListFromString](Sandbox/ParseLinkedListFromString.cs)
-- [ReorderList](Sandbox/ReorderList.cs)
-- [ReverseLinkedList](Sandbox/ReverseLinkedList.cs)
-- [SwapNodePairs](Sandbox/SwapNodePairs.cs)
-- [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
 
 ## Lists (7)
 
