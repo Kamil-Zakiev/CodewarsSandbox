@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox.svg?branch=master)](https://travis-ci.org/Kamil-Zakiev/CodewarsSandbox)
 # Sandbox
-The project aims to store the solutions of Codewars tasks (Currently solved **61 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
+The project aims to store the solutions of Codewars tasks (Currently solved **62 Kata**). The tasks are tagged with categories so I provide the same structure to my solutions below.
 
 ## Algorithms (37)
 
@@ -62,13 +62,14 @@ The project aims to store the solutions of Codewars tasks (Currently solved **61
 - [TenMinuteWalk](Sandbox/TenMinuteWalk.cs)
 - [SortedInsertToLinkedList](Sandbox/SortedInsertToLinkedList.cs)
 
-## LinkedLists (16)
+## LinkedLists (17)
 
 - [AddTwoNumbers](Sandbox/AddTwoNumbers.cs)
 - [CopyList](Sandbox/CopyList.cs)
 - [DistinctLinkedList](Sandbox/DistinctLinkedList.cs)
 - [InsertionSortList](Sandbox/InsertionSortList.cs)
 - [InsertNthNode](Sandbox/InsertNthNode.cs)
+- [LinkedListMergeSort](Sandbox/LinkedListMergeSort.cs)
 - [ListCycle](Sandbox/ListCycle.cs)
 - [MergeManyLists](Sandbox/MergeManyLists.cs)
 - [MergeSort](Sandbox/MergeSort.cs)
@@ -168,19 +169,20 @@ The project aims to store the solutions of Codewars tasks (Currently solved **61
 - [SortBinaryTreeByLevels](Sandbox/SortBinaryTreeByLevels.cs)
 - [IntToIP](Sandbox/IntToIP.cs)
 
+## Sorting (5)
+
+- [InsertionSortList](Sandbox/InsertionSortList.cs)
+- [LinkedListMergeSort](Sandbox/LinkedListMergeSort.cs)
+- [MovingZerosTask](Sandbox/MovingZerosTask.cs)
+- [Rank](Sandbox/Rank.cs)
+- [SortingTheRabbitHole](Sandbox/SortingTheRabbitHole.cs)
+
 ## DynamicProgramming (4)
 
 - [FabergeEasterEggsCrushTest](Sandbox/FabergeEasterEggsCrushTest.cs)
 - [MaxSubarraySum](Sandbox/MaxSubarraySum.cs)
 - [MinPathSquare](Sandbox/MinPathSquare.cs)
 - [Packer](Sandbox/Packer.cs)
-
-## Sorting (4)
-
-- [InsertionSortList](Sandbox/InsertionSortList.cs)
-- [MovingZerosTask](Sandbox/MovingZerosTask.cs)
-- [Rank](Sandbox/Rank.cs)
-- [SortingTheRabbitHole](Sandbox/SortingTheRabbitHole.cs)
 
 ## Graphs (4)
 
